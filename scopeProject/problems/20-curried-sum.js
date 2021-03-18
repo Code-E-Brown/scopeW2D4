@@ -1,5 +1,4 @@
 /***********************************************************************
-
 Currying is the process of decomposing a function that takes multiple arguments
 into one that takes single arguments successively until it has the sufficient
 number of arguments to run.This technique is named after the

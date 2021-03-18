@@ -4,6 +4,7 @@ plus 5. Write this function on a single line, and utilize a fat arrow function's
 ability to implicitly return by leaving out your own return statement.
 ***********************************************************************/
 
+let addFive = num => num + 5
 
 
 
