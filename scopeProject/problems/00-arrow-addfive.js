@@ -8,13 +8,6 @@ let addFive = num => num + 5
 
 
 
-
-
-
-
-
-
-
 console.log( result1 = addFive(0) ); // returns 5
 console.log( result2 = addFive(10) ); // returns 15
 console.log( result3 = addFive(37) ); // returns 42
