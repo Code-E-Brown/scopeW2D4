@@ -7,14 +7,25 @@ string including all of the parameters of smoothieMachine and the return
 function.
 ***********************************************************************/
 
+let smoothieMachine = function (...ingred) {
 
+  //let smoothOrder = "I'm having a smoothie with "
 
+  return function (...moreIngred) {
+    //smoothOrder = smoothOrder + ingred
+    // console.log(ingred)
+    // console.log(moreIngred)
+    // console.log(ingred.concat(moreIngred))
+    // console.log(ingred)
+    // console.log(ingred.join(" and "))
+    //ingred = (ingred.concat(moreIngred))
+    betterArr = [...ingred, ...moreIngred]
+    return "I'm having a smoothie with " + betterArr.join(" and ")
+  }
 
+}
 
-
-
-
-
+//smoothieMachine()("milk")
 
 
 let smoothie1 = smoothieMachine();
