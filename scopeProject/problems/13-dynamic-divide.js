@@ -7,7 +7,13 @@ divisor.
 Look below to see how this function is invoked:
 ***********************************************************************/
 
+function dynamicDivide(divisor) {
 
+  return function (num) {
+    return (num / divisor)
+  }
+
+}
 
 
 
